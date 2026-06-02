@@ -9,7 +9,7 @@ st.set_page_config(page_title="Resultados", layout="wide")
 DATA_FILE = Path("data/encuesta.xlsx")
 ADMIN_PASSWORD = "cambia_esta_clave"
 
-st.title("Resultados de la encuesta:")
+st.title("Resultados de la encuesta.")
 
 with st.sidebar:
     st.header("Administración")
