@@ -4,12 +4,12 @@ import pandas as pd
 from pathlib import Path
 import plotly.express as px
 
-st.set_page_config(page_title="Dashboard Encuestas", layout="wide")
+st.set_page_config(page_title="Resultados", layout="wide")
 
 DATA_FILE = Path("data/encuesta.xlsx")
 ADMIN_PASSWORD = "cambia_esta_clave"
 
-st.title("💡 Dashboard de Encuestas")
+st.title("Resultados")
 
 with st.sidebar:
     st.header("Administración")
